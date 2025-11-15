@@ -9,15 +9,15 @@
 #GO_GOOGLEAPIS_COMMIT=fc2697ec5327db9073b4e0aa140248f19b15d7ef
 
 # release tag from https://github.com/protocolbuffers/protobuf
-DEFAULT_PROTOC_VERSION=v30.2
+DEFAULT_PROTOC_VERSION=v33.1
 
 # sha256 of release zip file: sha256sum protoc-${DEFAULT_PROTOC_VERSION#v}-linux-x86_64.zip | awk '{print "sha256:" $1 }'
-DEFAULT_PROTOC_CHECKSUM=sha256:327e9397c6fb3ea2a542513a3221334c6f76f7aa524a7d2561142b67b312a01f
+DEFAULT_PROTOC_CHECKSUM=sha256:f3340e28a83d1c637d8bafdeed92b9f7db6a384c26bca880a6e5217b40a4328b
 
 # git commit from https://github.com/googleapis/googleapis
-DEFAULT_GOOGLEAPIS_COMMIT=376467058c288ad34dd7aafa892a95883e4acd0c
+DEFAULT_GOOGLEAPIS_COMMIT=97763d6efb2d35474e0363c254ee6994837a08fa
 # git commit from https://github.com/grpc-ecosystem/grpc-gateway
-DEFAULT_GRPC_GATEWAY_COMMIT=5757e1e4616289cf1ff6f2b6ec0673a43da7da54
+DEFAULT_GRPC_GATEWAY_COMMIT=fcb3c1b41455ec7d3181b10c3574b1279c69efd3
 
 ##################################################################################
 ### DO NOT EDIT BELOW THIS LINE, AS THESE VALUES ARE USED IN THE CORE MAKEFILE ###
